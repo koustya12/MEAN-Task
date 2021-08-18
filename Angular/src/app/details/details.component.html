@@ -1,0 +1,20 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-header">
+      Person Details
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <b>Name</b> : &nbsp;{{employeeService.selectedEmployee.name}}</li>
+
+      <li class="list-group-item">   <b>Email</b> : &nbsp;{{employeeService.selectedEmployee.email}}</li>
+      <li class="list-group-item"><b>Adress</b> : &nbsp;{{employeeService.selectedEmployee.address}}</li>
+      <li class="list-group-item"><b>Country</b> : &nbsp;{{employeeService.selectedEmployee.country}}</li>
+      <li class="list-group-item"><b>DOB</b> : &nbsp;{{employeeService.selectedEmployee.dob}}</li>
+    </ul>
+    <br>
+    <div class="row">
+      <div class="input-field col s12">
+        <button class="btn btn-warning" (click)="backTOList() ">Back To List</button>
+      </div>
+    </div>
+  </div>

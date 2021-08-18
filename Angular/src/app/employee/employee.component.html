@@ -1,0 +1,28 @@
+<form #employeeForm="ngForm">
+<div class="col s7">
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Country</th>
+        <th>DOB</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tr *ngFor="let emp of employeeService.employees">
+      <td><a [routerLink]="['/edit']" [queryParams]="{id:emp._id}">{{emp.name}}</a></td>
+      <td>{{emp.email}}</td>
+      <td>{{emp.address}}</td>
+      <td>{{emp.country}}</td>
+      <td>{{emp.dob}}</td>
+      <td>
+        <a  [routerLink]="['/details']" [queryParams]="{id:emp._id}">
+          Details
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+</form>

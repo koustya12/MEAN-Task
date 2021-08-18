@@ -1,0 +1,61 @@
+form div.input-field input{
+    padding-left: 15px !important;
+    color: #25a297;
+  }
+  
+  input.ng-invalid.ng-dirty{
+    border-bottom-color : #e91e63 !important;
+    box-shadow: 0 1px 0 0 #e91e63 !important;
+  }
+  
+  .card-content.s5 input{
+    margin: 12px 0px !important;
+  }
+  .input-field>label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 12px !important;;
+    padding-bottom: 12px !important;
+  }
+  
+  .btn-custom,.btn-custom:hover,.btn-custom:focus{
+    font-size: 1.1rem;
+    margin : 0px 5px;
+    border: #007bff solid 1px ;
+    color: #fff;
+    background-color: #007bff;
+  }
+  
+  div.card{
+    background-color : #fcfcfc;
+    border-radius: 10px;
+  }
+  
+  .vl {
+    border-left: 2px solid #747474;
+    height: 400px;
+  }
+  
+  a.action-btn{
+    color: #747474 ;
+    margin: 0px 5px;
+  
+  }
+  a.action-btn:hover{
+    cursor: pointer;
+  }
+  
+  #toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 10%;
+    left:7%;
+  }
+  .card-content .s5 input{
+    border: 1px solid #bdbdbd!important;
+    border-color: #bdbdbd!important;
+    color: #555!important;
+  }
+  .s7 table tr th , .s7 table tr td{
+    color: #333 !important;
+  }
